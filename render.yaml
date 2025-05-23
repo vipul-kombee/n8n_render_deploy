@@ -8,12 +8,24 @@ services:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: youruser
+        value: vipul
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: yourpassword
+        value: pass@1234
       - key: N8N_PORT
         value: "5678"
       - key: N8N_HOST
         value: n8n.onrender.com
       - key: WEBHOOK_URL
         value: https://n8n.onrender.com/
+      - key: DB_TYPE
+        value: postgres
+      - key: DB_POSTGRESDB_HOST
+        value: dpg-d00e0cvdiees739h92cg-a
+      - key: DB_POSTGRESDB_PORT
+        value: "5432"
+      - key: DB_POSTGRESDB_DATABASE
+        value: n8n_db_ockz
+      - key: DB_POSTGRESDB_USER
+        value: n8n_db_ockz_user
+      - key: DB_POSTGRESDB_PASSWORD
+        value: RyY4zDGGnDJZ77AD0DodyHbDoqGWV4BH
