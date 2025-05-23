@@ -4,6 +4,8 @@ services:
     env: docker
     plan: free
     autoDeploy: true
+    dockerCommand: "n8n start"
+    healthCheckPath: /healthz
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
@@ -17,6 +19,12 @@ services:
         value: n8n.onrender.com
       - key: WEBHOOK_URL
         value: https://n8n.onrender.com/
+      - key: N8N_EDITOR_BASE_URL
+        value: https://n8n.onrender.com
+      - key: N8N_API_HOST
+        value: 0.0.0.0
+      - key: N8N_API_PORT
+        value: "5678"
       - key: N8N_RUNNERS_ENABLED
         value: "false"
       - key: DB_TYPE
