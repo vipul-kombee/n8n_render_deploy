@@ -41,5 +41,6 @@ services:
         value: n8n_db_yn3a_user
       - key: DB_POSTGRESDB_PASSWORD
         value: rzFTLobymKUEKFIGXBt90328nI3tBQ8y
-      - key: DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED
-        value: "false"
+      - key: DB_POSTGRESDB_SSL_CA
+        value: "true"
+
