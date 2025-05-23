@@ -13,27 +13,31 @@ services:
         value: youruser
       - key: N8N_BASIC_AUTH_PASSWORD
         value: yourpassword
-      - key: N8N_HOST
-        value: n8n.onrender.com
       - key: N8N_PORT
         value: "5678"
-      - key: WEBHOOK_URL
-        value: https://n8n.onrender.com/
-      - key: N8N_EDITOR_BASE_URL
-        value: https://n8n.onrender.com
+      - key: N8N_HOST
+        value: n8n.onrender.com
       - key: N8N_API_HOST
         value: 0.0.0.0
       - key: N8N_API_PORT
         value: "5678"
+      - key: N8N_EDITOR_BASE_URL
+        value: https://n8n.onrender.com
+      - key: WEBHOOK_URL
+        value: https://n8n.onrender.com/
+      - key: N8N_RUNNERS_ENABLED
+        value: "false"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "true"
       - key: DB_TYPE
-        value: postgres
+        value: postgresdb
       - key: DB_POSTGRESDB_HOST
-        value: your-db-host
+        value: dpg-d00e0cvdiees739h92cg-a
       - key: DB_POSTGRESDB_PORT
         value: "5432"
       - key: DB_POSTGRESDB_DATABASE
-        value: your-db-name
+        value: n8n_db_ockz
       - key: DB_POSTGRESDB_USER
-        value: your-db-user
+        value: n8n_db_ockz_user
       - key: DB_POSTGRESDB_PASSWORD
-        value: your-db-password
+        value: RyY4zDGGnDJZ77AD0DodyHbDoqGWV4BH
