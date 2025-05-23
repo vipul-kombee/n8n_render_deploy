@@ -18,7 +18,7 @@ services:
       - key: WEBHOOK_URL
         value: https://n8n.onrender.com/
       - key: N8N_RUNNERS_ENABLED
-        value: "true"
+        value: "false"
       - key: DB_TYPE
         value: postgres
       - key: DB_POSTGRESDB_HOST
