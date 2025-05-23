@@ -41,6 +41,7 @@ services:
         value: n8n_db_ockz_user
       - key: DB_POSTGRESDB_PASSWORD
         value: RyY4zDGGnDJZ77AD0DodyHbDoqGWV4BH
-      - key: DB_POSTGRESDB_SSL_CA
-        value: "true"
+      - key: DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED
+        value: "false"
+
 
