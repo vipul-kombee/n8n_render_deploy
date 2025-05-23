@@ -32,7 +32,7 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_HOST
-        value: dpg-d00e0cvdiees739h92cg-a
+        value: dpg-d0o0c0vdiees739h92cg-a.oregon-postgres.render.com
       - key: DB_POSTGRESDB_PORT
         value: "5432"
       - key: DB_POSTGRESDB_DATABASE
